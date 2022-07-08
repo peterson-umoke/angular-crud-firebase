@@ -5,6 +5,7 @@ const routes: Routes = [
   {
     path: '',
     loadChildren: () => import('./meal/meal.module').then((m) => m.MealModule),
+    title: 'Meal Preperation',
   },
 ];
 
