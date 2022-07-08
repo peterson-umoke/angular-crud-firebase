@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "fir-mealprep": {
+      "hosting": {
+        "angular-crud-firebase": [
+          "fir-mealprep"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "fir-mealprep"
+  }
+}
